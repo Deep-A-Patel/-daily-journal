@@ -1,20 +1,33 @@
-body {
-    background-color:white;
+html {
+  background: url(/src/dj-back.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
 header {
-    background-color:gray;
-    
-}
-h1{
-    color:black;
+  background-color: red;
 }
 
+#journalDate {
+  color: lightgrey;
+}
+h1 {
+  color: gold;
+}
 
 fieldset {
-    background-color: lightgrey;
+  background-color: red;
+  border-color: gold;
+  color: gold;
 }
 
 button {
-    background-color:gray;
+  background-color: gold;
+  color: red;
+}
+
+.jEntry {
+  background-color: rgba(255, 0, 0, 0.301);
+  color: gold;
 }
