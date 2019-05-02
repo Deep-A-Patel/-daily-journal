@@ -17,13 +17,3 @@ fetch("http://localhost:3000/entries")
             `;
     });
   });
-
-///////////////////////////////// Daily Journal-5 /////////////////////////////////
-
-// Main application logic that uses the functions and objects
-// defined in the other JavaScript files.
-
-// Change the fake variable names below to what they should be
-// to get the data and display it.
-
-//objtWithGetterMethod.methodToGetData().then(functionThatRendersData);ec

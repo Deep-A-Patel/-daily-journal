@@ -6,19 +6,18 @@ html {
   background-size: cover;
 }
 header {
-  background-color: red;
+  background-color: transparent;
 }
 
 #journalDate {
-  color: lightgrey;
 }
 h1 {
   color: gold;
 }
 
 fieldset {
-  background-color: red;
-  border-color: gold;
+  background-color: rgba(255, 0, 0, 0.301);
+  border-color: solid 0.4em white;
   color: gold;
 }
 
