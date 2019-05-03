@@ -5,28 +5,42 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-header {
-  background-color: transparent;
-}
 
 #journalDate {
 }
 h1 {
-  color: gold;
+  text-align: center;
+  font-size: 7em;
+  margin: 20px 0 20px 0;
+  color: red;
+  text-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 30px gold, 0 0 40px red,
+    0 0 70px red, 0 0 80px red, 0 0 100px red, 0 0 150px red;
 }
-
-fieldset {
-  background-color: rgba(255, 0, 0, 0.301);
-  border-color: solid 0.4em white;
+h1:hover {
+  color: white;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+    0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+}
+label {
   color: gold;
+  font-size: 3em;
+  text-shadow: 0 0 30px red;
+}
+.journalDate,
+.conceptsCover,
+.journalEntry,
+.moodForTheDay {
+  background-color: rgba(255, 0, 0, 0.137);
 }
 
 button {
   background-color: gold;
   color: red;
+  font-size: 2em;
 }
 
 .jEntry {
-  background-color: rgba(255, 0, 0, 0.301);
+  background-color: rgba(255, 0, 0, 0.137);
   color: gold;
+  font-size: 1.3em;
 }

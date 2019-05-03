@@ -33,9 +33,10 @@
                     <fieldset class="moodForTheDay">
                         <label for="moodForTheDay">Mood For The Day</label>
                         <select name="mood" id="mood">
-                                <option value="sad">Sad</option>
-                                <option value="normal">Normal</option>
-                                <option value="happy">Happy</option>
+                                <option value="none"></option>
+                                <option value="sad">😞</option>
+                                <option value="normal">😐</option>
+                                <option value="happy">😀</option>
                         </select>
                         
                     </fieldset>
@@ -43,7 +44,7 @@
                 <form action="">
                         <button>Record Journal</button>
                 </form>
-                <article class="jEntry"></article>
+                <fieldset class="jEntry"></fieldset>
                 <script src="/src/scripts/entriesDOM.js"></script>
                 <script src="/src/scripts/entryComponent.js"></script>
                 <script src="/src/scripts/data.js"></script>
